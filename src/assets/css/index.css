@@ -1,0 +1,116 @@
+
+.active {
+  color: green;
+}
+#portal .u-navbar-side-container{
+	width: 100%;
+	height: auto;
+	margin-top: -3px;
+    border-top: none;
+    width: 72px;
+}
+#portal .u-navbar-side-container .u-menu-item {
+	padding-left: 10px !important;
+	height: auto;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#portal .u-navbar-side-container .u-menu-item.u-menu-item-active,#portal .u-navbar-side-container .u-menu-item-selected {
+	background-color: #919dad;
+	border: none;
+}
+#portal .u-navbar-side-container .u-menu-item a{
+	padding: 3px 0;
+	display: inline-block;
+	color: #fff;
+}
+#portal .u-navbar-side-container .u-menu-item a h4{
+	line-height: 12px;
+	margin: 0;
+	font-size: 12px;
+	font-weight: 500;
+}
+#portal .u-navbar-side-container .u-menu-item  .uf {
+	font-size: 18px;
+}
+#portal .u-navbar-side-container .portal-menu {
+	padding-top:0;
+	background: #616d7d;
+	height: 100%;
+	border-radius: 0;
+}
+#portal .portal-navbar .u-container-fluid{
+	padding-left: 0;
+}
+#portal .toggle-wrap{
+    background: #35aedb;
+    margin: 0;
+    border-radius: 0;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+#portal .toggle-wrap .u-navbar-toggle .icon-bar {
+	background: #fff;
+    margin-top: 3px;
+    height: 3px;
+}
+#portal .toggle-wrap .u-navbar-toggle.show{
+	padding: 3px 27px 3px 26px;
+    height: 28px;
+}
+#portal .u-navbar-toggle.show .uf{
+	color: #fff; 
+}
+#portal .portal-tile-content {
+	padding-top: 5%;
+}
+#portal .u-tile .uf{
+	font-size: 60px;
+}
+#portal .u-tile{
+	text-align: center;
+	padding-bottom: 30px;
+	color: #47c5f1;
+}
+#portal .u-tile h4{
+	font-weight: 500;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #616d7d;
+}
+#portal .u-tile.u-tile-hover-info:hover h4{
+	color: #47c5f1;
+}
+#portal .u-navbar .u-navbar-nav > li {
+	
+	padding: 4px 10px;
+	padding-top: 13px;
+}
+#portal .u-menu-horizontal > .u-menu-submenu > .u-menu-submenu-title{
+	width: 120px;
+	padding: 4px 20px;
+	padding-top: 13px;
+    font-size: 12px;
+}
+#portal .u-navbar .u-navbar-brand {
+	padding: 6px;
+    height: 43px;
+}
+#portal .u-navbar .u-navbar-nav .form-item{
+	padding-top: 8px;
+}
+#portal .u-navbar .u-navbar-nav .form-item .u-form-control {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#portal .u-navbar{
+	min-height: 46px;
+}
+.img-title{
+	width: 30%;
+	border-radius: 50%;
+}
+.portal-nav{
+	//text-align: right;
+}
