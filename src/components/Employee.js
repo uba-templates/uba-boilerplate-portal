@@ -5,66 +5,55 @@ class Employee extends Component{
   render() {
     return (
     	<Con className="portal-tile-content">
-    		<Col md={3} sm={4} xs={6}>
-	    		<Tile hoverColors="info">
-					<Icon type="github-character" />
-					<h4>待办事项</h4>
-				</Tile>
-			</Col>
-			<Col md={3} sm={4} xs={6}>
+    		<Col md={3}>
 				<Tile hoverColors="info">
-					<Icon type="cog-wheel-silhouette" />
-					<h4>员工入职</h4>
-				</Tile>
-			</Col>
-			<Col md={3} sm={4} xs={6}>
-				<Tile hoverColors="info">
-					<Icon type="checkered-raised-flag" />
-					<h4>员工离职</h4>
-				</Tile>
-			</Col>
-			<Col md={3} sm={4} xs={6}>
-				<Tile hoverColors="info">
-					<Icon type="plane" />
-					<h4>人才流动</h4>
-				</Tile>
-			</Col>
-			<Col md={3} sm={4} xs={6}>
-	    		<Tile hoverColors="info">
-					<Icon type="earth-globe" />
-					<h4>员工休假</h4>
-				</Tile>
-			</Col>
-			<Col md={3} sm={4} xs={6}>
-				<Tile hoverColors="info">
-					<Icon type="fire-symbol" />
+					<Icon type="uf-personin" />
 					<h4>员工信息</h4>
 				</Tile>
 			</Col>
-			<Col md={3} sm={4} xs={6}>
+			<Col md={3}>
 				<Tile hoverColors="info">
-					<Icon type="plane" />
+					<Icon type="uf-earth" />
 					<h4>员工动态</h4>
 				</Tile>
 			</Col>
-			<Col md={3} sm={4} xs={6}>
+			<Col md={3}>
 				<Tile hoverColors="info">
-					<Icon type="stack-exchange-symbol" />
+					<Icon type="uf-widgetab" />
 					<h4>人才结构</h4>
 				</Tile>
 			</Col>
-			<Col md={3} sm={4} xs={6}>
+    		<Col md={3}>
 	    		<Tile hoverColors="info">
-					<Icon type="github-character" />
+					<Icon type="uf-pass-s-o" />
 					<h4>待办事项</h4>
 				</Tile>
 			</Col>
-			<Col md={3} sm={4} xs={6}> 
+			<Col md={3}>
 				<Tile hoverColors="info">
-					<Icon type="cog-wheel-silhouette" />
+					<Icon type="uf-training" />
 					<h4>员工入职</h4>
 				</Tile>
 			</Col>
+			<Col md={3}>
+				<Tile hoverColors="info">
+					<Icon type="uf-seal" />
+					<h4>员工离职</h4>
+				</Tile>
+			</Col>
+			<Col md={3}>
+				<Tile hoverColors="info">
+					<Icon type="uf-setting-c-o" />
+					<h4>人才流动</h4>
+				</Tile>
+			</Col>
+			<Col md={3}>
+	    		<Tile hoverColors="info">
+					<Icon type="uf-dropbox" />
+					<h4>员工休假</h4>
+				</Tile>
+			</Col>
+			
     	</Con>
     )
   }

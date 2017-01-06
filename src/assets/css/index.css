@@ -114,3 +114,6 @@
 .portal-nav{
 	//text-align: right;
 }
+.portal-tile-content .u-col-md-3 {
+    padding: 0 !important;
+}

@@ -8,44 +8,38 @@ class Organize extends Component{
     		
 			<Col md={3}>
 				<Tile hoverColors="info">
-					<Icon type="cog-wheel-silhouette" />
-					<h4>员工入职</h4>
-				</Tile>
-			</Col>
-			<Col md={3}>
-				<Tile hoverColors="info">
-					<Icon type="checkered-raised-flag" />
-					<h4>员工离职</h4>
-				</Tile>
-			</Col>
-			<Col md={3}>
-				<Tile hoverColors="info">
-					<Icon type="plane" />
-					<h4>人才流动</h4>
-				</Tile>
-			</Col>
-			<Col md={3}>
-	    		<Tile hoverColors="info">
-					<Icon type="earth-globe" />
-					<h4>员工休假</h4>
-				</Tile>
-			</Col>
-			<Col md={3}>
-				<Tile hoverColors="info">
-					<Icon type="fire-symbol" />
+					<Icon type="uf-personin" />
 					<h4>员工信息</h4>
 				</Tile>
 			</Col>
 			<Col md={3}>
 				<Tile hoverColors="info">
-					<Icon type="plane" />
+					<Icon type="uf-earth" />
 					<h4>员工动态</h4>
 				</Tile>
 			</Col>
 			<Col md={3}>
 				<Tile hoverColors="info">
-					<Icon type="stack-exchange-symbol" />
+					<Icon type="uf-widgetab" />
 					<h4>人才结构</h4>
+				</Tile>
+			</Col>
+    		<Col md={3}>
+	    		<Tile hoverColors="info">
+					<Icon type="uf-pass-s-o" />
+					<h4>待办事项</h4>
+				</Tile>
+			</Col>
+			<Col md={3}>
+				<Tile hoverColors="info">
+					<Icon type="uf-training" />
+					<h4>员工入职</h4>
+				</Tile>
+			</Col>
+			<Col md={3}>
+				<Tile hoverColors="info">
+					<Icon type="uf-seal" />
+					<h4>员工离职</h4>
 				</Tile>
 			</Col>
     	</Con>

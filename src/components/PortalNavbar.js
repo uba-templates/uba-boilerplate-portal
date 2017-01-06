@@ -68,11 +68,11 @@ class PortalNavbar extends Component {
                           className="portal-menu" >
                         <Menu.Item 
                             key="1">
-                            <NavLink to="/"><Icon type="home"/><h4>首页</h4></NavLink>
+                            <NavLink to="/"><Icon type="uf-home"/><h4>首页</h4></NavLink>
                         </Menu.Item>
-                        <Menu.Item key="2"><NavLink to="/organize"><Icon type="sitemap"/><h4>组织管理</h4></NavLink></Menu.Item>
-                        <Menu.Item key="3"><NavLink to="/employee"><Icon type="group-profile-users"/><h4>员工管理</h4></NavLink></Menu.Item>
-                        <Menu.Item key="4"><NavLink to="/time"><Icon type="time"/><h4>时间管理</h4></NavLink></Menu.Item>
+                        <Menu.Item key="2"><NavLink to="/organize"><Icon type="uf-group"/><h4>组织管理</h4></NavLink></Menu.Item>
+                        <Menu.Item key="3"><NavLink to="/employee"><Icon type="uf-users"/><h4>员工管理</h4></NavLink></Menu.Item>
+                        <Menu.Item key="4"><NavLink to="/time"><Icon type="uf-time-c-o"/><h4>时间管理</h4></NavLink></Menu.Item>
                         
                     </Menu>
                 </SideContainer>
