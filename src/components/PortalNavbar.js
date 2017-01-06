@@ -59,7 +59,7 @@ class PortalNavbar extends Component {
                         </Menu>
                     </Nav>
                 </Navbar>
-                <Col md={1} style={{paddingLeft:0}}>
+                <Col md={1} className="portalCol1">
                 <SideContainer onToggle={this.onToggle.bind(this)} expanded={this.state.expanded}>
                     <Menu onClick={this.handleClick.bind(this)}
                           defaultOpenKeys={['demo3sub1']}

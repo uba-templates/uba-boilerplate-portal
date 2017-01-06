@@ -10,22 +10,21 @@ module.exports = {
   output: {
     path: path.join(__dirname, "./dist"),
     filename: 'bundle.js'
-    // publicPath: ''
   },
 
   module: {
     loaders: [
-      { 
-        test: /\.js$/, 
-        exclude: /node_modules/, 
-        loader: 'babel' 
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel'
       },
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract("style-loader", "css-loader")
       },
       {
-        test: /\.(woff2?|eot|ttf|otf|svg)$/,
+        test: /\.(woff2?|eot|ttf|otf|svg|woff)/,
         loader: 'url?limit=10240'
       },
       {

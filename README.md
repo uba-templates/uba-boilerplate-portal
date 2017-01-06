@@ -13,8 +13,7 @@
 #### 开发调试
 
 ```sh
-
-$ git clone git@github.com:uba-templates/Portal.git
-$ npm install
+$ git clone git@github.com:uba-templates/uba-templates-portal.git
+$ cd uba-templates-portal && npm install
 $ npm start
 ```

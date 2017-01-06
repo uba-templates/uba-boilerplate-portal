@@ -2,9 +2,18 @@
 .active {
   color: green;
 }
+#app,#portal,#navbar {
+	position: relative;
+    height: 100%;
+    width: 100%;
+}
+.portalCol1{
+	padding-left: 0;
+	height: 100%;
+}
 #portal .u-navbar-side-container{
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin-top: -3px;
     border-top: none;
     width: 72px;
@@ -116,4 +125,7 @@
 }
 .portal-tile-content .u-col-md-3 {
     padding: 0 !important;
+}
+#portal .u-badge.data-badge .data-icon {
+	height: 14px
 }
