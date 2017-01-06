@@ -10,10 +10,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, "./dist"),
     filename: 'bundle.js'
-<<<<<<< HEAD
-    // publicPath: ''
-=======
->>>>>>> 更新package.json
   },
 
   module: {
